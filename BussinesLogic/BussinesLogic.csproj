@@ -40,7 +40,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IClientLogic.cs" />
+    <Compile Include="IOrderLogic.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EjemploNorthwind.Entities\EjemploNorthwind.Entities.csproj">
+      <Project>{DDC08C88-BB01-451D-9A43-9D5E8670A380}</Project>
+      <Name>EjemploNorthwind.Entities</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

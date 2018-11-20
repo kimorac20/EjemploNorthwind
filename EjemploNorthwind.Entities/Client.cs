@@ -21,6 +21,7 @@ namespace EjemploNorthwind.Entities
             {
                 if (Orders == null) return 0;
                 return Orders.Sum(o => o.Total);
+
             } 
                 
                 }

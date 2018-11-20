@@ -11,5 +11,6 @@ namespace BussinesLogic
     {
         List<Client> GetClients();
         List<Client> GetClients(string nameFilter);
+        Client GetById(int id);
     }
 }
