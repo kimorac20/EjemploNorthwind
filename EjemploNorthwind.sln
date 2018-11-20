@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjemploNorthwind.Entities", "EjemploNorthwind.Entities\EjemploNorthwind.Entities.csproj", "{DDC08C88-BB01-451D-9A43-9D5E8670A380}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BussinesLogic", "BussinesLogic\BussinesLogic.csproj", "{5A24659C-A8BD-467D-A653-3BF9BB259F96}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{DDC08C88-BB01-451D-9A43-9D5E8670A380}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DDC08C88-BB01-451D-9A43-9D5E8670A380}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DDC08C88-BB01-451D-9A43-9D5E8670A380}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A24659C-A8BD-467D-A653-3BF9BB259F96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A24659C-A8BD-467D-A653-3BF9BB259F96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A24659C-A8BD-467D-A653-3BF9BB259F96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A24659C-A8BD-467D-A653-3BF9BB259F96}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
